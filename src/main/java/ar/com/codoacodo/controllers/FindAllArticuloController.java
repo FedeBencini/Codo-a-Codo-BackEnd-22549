@@ -38,7 +38,7 @@ public class FindAllArticuloController extends HttpServlet {
 
 		// Guardo bajo nombre "articulos" la lista de articulos
 		req.setAttribute("articulos", articulosBuscados);
-
+		// Redirecciono a otra pág o servlet (Servlet = Controller = WebServlet)
 		getServletContext().getRequestDispatcher("/listado.jsp").forward(req, resp);
 	}
 

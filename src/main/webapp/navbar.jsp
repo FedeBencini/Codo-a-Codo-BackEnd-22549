@@ -13,6 +13,10 @@
 					aria-current="page"
 					href="<%=request.getContextPath()%>/FindAllArticuloController">Listado</a>
 				</li>
+				<li class="nav-item me-auto mb-2- mb-lg-0"><a class="nav-link"
+					href="<%=request.getContextPath()%>/nuevo.jsp">Nuevo</a>
+
+				</li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 					role="button" data-bs-toggle="dropdown" aria-expanded="false">

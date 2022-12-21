@@ -20,9 +20,9 @@
 		<div class="row">
 			<h1>Listado de Productos</h1>
 			<div class="col-12 mt-2">
-				<table class="table">
+				<table class="table table-hover">
 					<thead>
-						<tr>
+						<tr class="table-dark">
 							<th scope="col">#</th>
 							<th scope="col">Título</th>
 							<th scope="col">Autor</th>
@@ -57,7 +57,7 @@
 						%>
 					</tbody>
 					<tfoot>
-						<tr>
+						<tr class="table-dark">
 							<td colspan="3" align="right">
 								Total $ 
 							</td>

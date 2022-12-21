@@ -16,6 +16,7 @@
 	<!-- Formulario -->
 	<main class="container">
 		<h1>Nuevo Producto</h1>
+		<jsp:include page="mensajeria.jsp"></jsp:include>
 		<div class="row">
 			<div class="col-12 mt-2">
 				<form class="row g-3 needs-validation" novalidate
